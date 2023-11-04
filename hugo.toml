@@ -1,3 +1,30 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://matlads.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Martin Atukunda'
+theme = 'awesome-identity'
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/mugshot.jpg"
+  firstname = "Martin"
+  lastname = "Atukunda"
+  title = "Senior Software Developer"
+  bio = """Martin Atukunda brings over 20 years experience in the software development space,  leading, contributing to, and growing software engineering teams in various technology companies.
+  """
+
+## Contacts Configurations
+[params.contacts]
+  email = "matlads@gmail.com"
+  github = "matlads"
+  gitlab = "matlads"
+  twitter = "matlads"
+  facebook = "matlads"
+  linkedin = "matlads"
+  instagram = "matlads"
+  stackoverflow = "matlads"
+  keybase = "matlads"
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2023 Martin Atukunda. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
